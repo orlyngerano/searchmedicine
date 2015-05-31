@@ -1,0 +1,81 @@
+<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    card_view:cardCornerRadius="4dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           />
+        
+         <TextView
+            android:id="@+id/product_form_lbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/product_name"
+            android:text="Form:"/>
+
+        <TextView
+            android:id="@+id/product_form"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/product_name"
+            android:layout_toRightOf="@id/product_form_lbl"
+            />
+        
+        
+        <TextView
+            android:id="@+id/product_route_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/product_form_lbl"
+             android:text="Route:"/>
+
+        <TextView
+            android:id="@+id/product_route"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/product_form_lbl"
+            android:layout_toRightOf="@id/product_route_label"/>
+
+		<TextView
+            android:id="@+id/product_manufacturer_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/product_route_label"
+            android:text="Manufacturer:"/>
+        
+        <TextView
+            android:id="@+id/product_manufacturer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/product_route_label"
+            android:layout_toRightOf="@id/product_manufacturer_label"/>
+        
+        <TextView
+            android:id="@+id/product_quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/product_manufacturer"/>
+        
+        
+        
+          <ImageView
+            android:id="@+id/product_img"
+            android:contentDescription="product image"
+        	android:layout_width="80dp"
+        	android:layout_height="80dp"
+        	android:layout_alignParentRight="true"/>
+        
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

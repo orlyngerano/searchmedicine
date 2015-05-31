@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.orlyn.umedinfo.MainActivity" >
+    
+     
+     <item android:id="@+id/search"
+          android:title="@string/search_title"
+          android:icon="@drawable/ic_search"
+          android:showAsAction="collapseActionView|ifRoom"
+          yourapp:showAsAction="collapseActionView|ifRoom"
+          android:actionViewClass="android.widget.SearchView"
+          yourapp:actionViewClass="android.widget.SearchView" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        yourapp:showAsAction="never"/>
+
+</menu>
+<!-- From: file:/C:/Users/Orlyn/Documents/MyOffice/personal/umedinfo/deb/uMedInfo/src/main/res/menu/main.xml -->

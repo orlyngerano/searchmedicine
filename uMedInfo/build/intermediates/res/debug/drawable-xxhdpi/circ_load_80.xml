@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    <item android:drawable="@drawable/circ_load_80_01" android:duration="50" />
+    <item android:drawable="@drawable/circ_load_80_02" android:duration="50" />
+    <item android:drawable="@drawable/circ_load_80_03" android:duration="50" />
+    <item android:drawable="@drawable/circ_load_80_04" android:duration="50" />
+    <item android:drawable="@drawable/circ_load_80_05" android:duration="50" />
+    <item android:drawable="@drawable/circ_load_80_06" android:duration="50" />
+    <item android:drawable="@drawable/circ_load_80_07" android:duration="50" />
+    <item android:drawable="@drawable/circ_load_80_08" android:duration="50" />
+    <item android:drawable="@drawable/circ_load_80_09" android:duration="50" />
+    <item android:drawable="@drawable/circ_load_80_10" android:duration="50" />
+    <item android:drawable="@drawable/circ_load_80_11" android:duration="50" />
+    <item android:drawable="@drawable/circ_load_80_12" android:duration="50" />
+    <item android:drawable="@drawable/circ_load_80_13" android:duration="50" />
+    <item android:drawable="@drawable/circ_load_80_14" android:duration="50" />
+    <item android:drawable="@drawable/circ_load_80_15" android:duration="50" />
+    <item android:drawable="@drawable/circ_load_80_16" android:duration="50" />
+    <item android:drawable="@drawable/circ_load_80_17" android:duration="50" />
+    <item android:drawable="@drawable/circ_load_80_18" android:duration="50" />
+    <item android:drawable="@drawable/circ_load_80_19" android:duration="50" />
+    <item android:drawable="@drawable/circ_load_80_20" android:duration="50" />
+    <item android:drawable="@drawable/circ_load_80_21" android:duration="50" />            
+ </animation-list><!-- From: file:/C:/Users/Orlyn/Documents/MyOffice/personal/umedinfo/deb/uMedInfo/src/main/res/drawable-xxhdpi/circ_load_80.xml -->
